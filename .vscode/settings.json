@@ -1,6 +1,253 @@
 {
-    "files.associations": {
-        ".env.example": "dotenv",
-        "Dockerfile-*": "dockerfile"
+	// "editor.hover.enabled": false,
+	"editor.hover.delay": 5000,
+	"*.module": "php",
+	"git.autofetch": true,
+	"vetur.format.defaultFormatter.html": "js-beautify-html",
+	"vetur.format.defaultFormatter.postcss": "prettier",
+	"vetur.format.defaultFormatter.scss": "prettier",
+	"vetur.format.defaultFormatter.less": "prettier",
+	"vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+	"vetur.format.defaultFormatter.js": "prettier",
+	"vetur.format.defaultFormatter.ts": "prettier",
+	"vetur.validation.template": false,
+	"vetur.format.defaultFormatter.css": "prettier",
+	"vetur.validation.interpolation": false,
+
+	"explorer.confirmDragAndDrop": false,
+	"prettier.singleQuote": true,
+	"prettier.semi": false,
+	"editor.detectIndentation": false,
+	"prettier.useTabs": true,
+
+	"editor.fontSize": 17,
+	"workbench.colorTheme": "Atom One Dark",
+	"atomKeymap.promptV3Features": true,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"[php]": {
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+	},
+	"[vue]": {
+		// "editor.defaultFormatter": "vue",
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "octref.vetur",
+		// "editor.formatOnSave": true
+		// "editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.tabSize": 2
+	},
+
+	"sync.gist": "9c27888d201ce1e5256b15bd589c1a1e",
+	"editor.acceptSuggestionOnCommitCharacter": false,
+	"autoimport.useSemiColon": false,
+	"javascript.format.insertSpaceAfterSemicolonInForStatements": false,
+	"typescript.format.insertSpaceAfterSemicolonInForStatements": false,
+	"editor.formatOnSave": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features",
+		"editor.tabSize": 2
+	},
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"editor.fontFamily": "Fira Code,Cascadia Code,Monaco, 'Courier New', monospace, Source Code Pro for Powerline,monospace",
+	"[shellscript]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+
+	"editor.formatOnType": true,
+	"cSpell.userWords": [
+        "Authenticatable",
+        "datas",
+        "Doesnt",
+        "Promptpay",
+        "tranfermoney",
+        "unfollow"
+    ],
+	"powermode.backgroundMode": "image",
+	"vsicons.dontShowNewVersionMessage": true,
+	"githubIssues.queries": [
+		{
+			"label": "My Issues",
+			"query": "default"
+		},
+		{
+			"label": "Created Issues",
+			"query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+		}
+	],
+	"javascript.updateImportsOnFileMove.enabled": "never",
+	"vue.suggest.enabled": false,
+	"launch": {
+		"configurations": [],
+		"compounds": []
+	},
+	"mssql.enableQueryHistoryCapture": false,
+	"mssql.connections": [
+		{
+			"server": "{{put-server-name-here}}",
+			"database": "{{put-database-name-here}}",
+			"user": "{{put-username-here}}",
+			"password": ""
+		}
+	],
+	"githubPullRequests.fileListLayout": "tree",
+
+	"tabnine.experimentalAutoImports": true,
+	"cSpell.languageSettings": [
+		{ "languageId": "*", "local": "en", "dictionaries": ["wordsEn"] },
+		{ "languageId": "*", "local": "en-US", "dictionaries": ["wordsEn"] },
+		{ "languageId": "*", "local": "en-GB", "dictionaries": ["wordsEnGb"] },
+		{
+			"languageId": "*",
+			"dictionaries": ["companies", "softwareTerms", "misc"]
+		},
+		{
+			"languageId": "python",
+			"allowCompoundWords": true,
+			"dictionaries": ["python"]
+		},
+		{ "languageId": "go", "allowCompoundWords": true, "dictionaries": ["go"] },
+		{ "languageId": "javascript", "dictionaries": ["typescript", "node"] },
+		{ "languageId": "javascriptreact", "dictionaries": ["typescript", "node"] },
+		{ "languageId": "typescript", "dictionaries": ["typescript", "node"] },
+		{ "languageId": "typescriptreact", "dictionaries": ["typescript", "node"] },
+		{
+			"languageId": "html",
+			"dictionaries": ["html", "fonts", "typescript", "css"]
+		},
+		{
+			"languageId": "php",
+			"dictionaries": ["php", "html", "fonts", "css", "typescript", "vue"]
+		},
+		{ "languageId": "css", "dictionaries": ["fonts", "css"] },
+		{ "languageId": "less", "dictionaries": ["fonts", "css"] },
+		{ "languageId": "scss", "dictionaries": ["fonts", "css"] }
+	],
+	"vsicons.presets.hideExplorerArrows": true,
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter.notebook.ipynb",
+		"*.txt": "default"
+	},
+
+	"extensions.autoUpdate": false,
+	"editor.codeActionsOnSave": {
+		// "source.fixAll.eslint": true
+	},
+	"editor.inlineHints.fontFamily": "Menlo, Monaco, 'Courier New', monospace,PowerlineSymbols,monospace",
+	// "editor.quickSuggestions": null,
+
+	// "eslint.alwaysShowStatus": true,
+	"refreshBrowser.browser": "Google Chrome", //
+	"refreshBrowser.urlPrefixes": [
+		"http://apartment.test/test",
+		"http://monitormines789.test/test",
+		"http://novelkingdom.test/",
+		"http://imr.test/test",
+		"http://mutewall.test/test"
+	],
+	"refreshBrowser.runBuildTask": false,
+
+	"terminal.external.osxExec": "iTerm.app",
+
+	"terminal.integrated.fontSize": 14,
+	"editor.fontLigatures": true,
+	"eslint.migration.2_x": "off",
+	"importCost.vueExtensions": ["\\.vue$"],
+	"[json]": {
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace",
+		"gitlens.codeLens.scopes": ["document"],
+		"editor.defaultFormatter": "HookyQR.beautify"
+	},
+
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.linkedEditing": true,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[dotenv]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"C_Cpp.default.includePath": [],
+	"window.nativeTabs": true,
+	"javascript.format.semicolons": "remove",
+
+	"typescript.format.semicolons": "remove",
+	"typescriptHero.imports.insertSemicolons": false,
+	"typescript.preferences.quoteStyle": "single",
+	"javascript.preferences.quoteStyle": "single",
+	"prettier.requireConfig": true,
+	"[ignore]": {
+		"editor.defaultFormatter": "satokaz.vscode-bs-ctrlchar-remover"
+	},
+	"[properties]": {
+		"editor.defaultFormatter": "satokaz.vscode-bs-ctrlchar-remover"
+	},
+	"editor.quickSuggestionsDelay": 1000,
+
+	// "vetur.validation.script": false,
+	// "vetur.validation.style": false
+	// "editor.fontFamily": "Fira Code"
+	"editor.cursorStyle": "line",
+	// "editor.cursorWidth": 3,
+	// "editor.cursorBlinking": "solid",
+	"editor.renderWhitespace": "selection",
+
+	"workbench.colorCustomizations": {
+		// "activityBar.background": "#00AA00"
+		"[Atom One Dark]": {
+			"editor.findMatchBackground": "#1f8580",
+
+			// "editor.findMatchBorder": "#ff0000",
+			"contrastActiveBorder": "#ff0000", // g
+			"editor.background": "#070000", //g
+			// "editor.lineHighlightBorder": "#6f00ff", //g
+			"editorBracketHighlight.unexpectedBracket.foreground": "#ff0000",
+			"editorCursor.foreground": "#00ff22",
+
+			"editorGroup.border": "#ff0000",
+			// "editor.foreground": "#083b0b",
+			"editor.wordHighlightBorder": "#ff0000",
+			"editor.wordHighlightBackground": "#6b0909"
+
+			// "back"
+		}
+	},
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	},
+	"apklab.apkSignerPath": "/Users/mytd/.apklab/uber-apk-signer-1.2.1.jar",
+	"apklab.apktoolPath": "/Users/mytd/.apklab/apktool_2.6.0.jar",
+	"apklab.jadxDirPath": "/Users/mytd/.apklab/jadx-1.2.0",
+	"terminal.integrated.shell.osx": "/bin/zsh",
+	"terminal.integrated.fontFamily": "PowerlineSymbols,monospace",
+	"[ruby]": {
+		"editor.defaultFormatter": "satokaz.vscode-bs-ctrlchar-remover"
+	},
+	"[blade]": {
+		"editor.defaultFormatter": "satokaz.vscode-bs-ctrlchar-remover"
+	},
+	"workbench.editor.splitInGroupLayout": "vertical",
+	"editor.unicodeHighlight.invisibleCharacters": false,
+	// "editor.tabSize": 2,
+	"git.ignoreLegacyWarning": true,
+	"remote.SSH.remotePlatform": {
+		"150.95.30.118": "linux"
+	},
+	"bracketPairColorizer.depreciation-notice": false,
+	"bracket-pair-colorizer-2.depreciation-notice": false,
+	"editor.formatOnPaste": true,
+    "thunder-client.htmlView": "Preview",
+    "[typescript]": {
+        "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
     }
+	// "terminal.integrated": "/bin/zsh",
+	// "terminal.integrated.fontFamily": "Hac k Nerd Font"
 }
